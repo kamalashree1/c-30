@@ -124,6 +124,6 @@ function mouseReleased(){
 }
 function keyPressed(){
   if(keyCode===32){
-  slingShot.attach(polygon_img);
+  slingShot.attach(this.ball);
   }
 }
